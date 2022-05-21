@@ -6,4 +6,4 @@
 
 ## Capture d'écran
 
-![image](https://user-images.githubusercontent.com/66129931/169667487-77fd70e6-99ec-45a3-9e58-236f396f04a2.png)
+![image](https://user-images.githubusercontent.com/66129931/169667515-67828e1a-77cf-4375-947c-74da1a79bad1.png)
