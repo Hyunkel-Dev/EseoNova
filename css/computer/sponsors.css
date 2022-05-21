@@ -1,0 +1,14 @@
+#sponsors {
+    padding-bottom: 50px;
+}
+
+#sponsors img {
+    max-width: 200px;
+    max-height: 200px;
+
+    margin: 20px;
+}
+
+#sponsors h3 {
+    padding-bottom: 50px;
+}

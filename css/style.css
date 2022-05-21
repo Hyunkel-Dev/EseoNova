@@ -1,0 +1,147 @@
+/* utils */
+@import "utils.css";
+
+/* pages */
+@import "computer/menu.css";
+@import "mobile/menu.css";
+
+@import "computer/section.css";
+@import "mobile/section.css";
+
+@import "computer/home.css";
+@import "mobile/home.css";
+
+@import "computer/planning.css";
+@import "mobile/planning.css";
+
+@import "computer/sponsors.css";
+
+@import "computer/liste.css";
+@import "mobile/liste.css";
+
+@import "computer/mentions_legales.css";
+
+/* items */
+@import "computer/frame.css";
+@import "mobile/frame.css";
+
+@import "computer/glass.css";
+@import "mobile/glass.css";
+
+@import "computer/window.css";
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: default-font, sans-serif;
+}
+
+*::selection
+{
+    background-color:transparent;
+}
+*::-moz-selection
+{
+    background-color:transparent;
+}
+*
+{
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    /*IE10*/
+    -ms-user-select: none;
+    user-select: none;
+
+    /*You just need this if you are only concerned with android and not desktop browsers.*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+	background-color: var(--white);
+    width: 100%;
+    overflow: overlay;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 3rem;
+}
+p {
+    font-size: 30px;
+}
+
+.gradient {
+    background: linear-gradient(-90deg, var(--black), var(--red), var(--black));
+    background-size: 400% 400%;
+    animation: gradient var(--duration) ease infinite;
+}
+
+.divider {
+    width: 90%;
+    height: 1px;
+    background-color: var(--black);
+    border-radius: 1px;
+    border: solid 1px var(--black);
+    margin-bottom: 40px;
+}
+
+.dark-background {
+    background-color: var(--black);
+}
+
+.reveal {
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+.active.fade-top {
+    animation: fade-top 1s ease-in;
+}
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+@media all and (min-width: 1000px) {
+    body::-webkit-scrollbar {
+        width: 12px;
+        background: rgba(0, 0, 0, 0);
+    }
+    body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0);;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    body::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .width-reduced {
+        width: 85%;
+    }
+}

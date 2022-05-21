@@ -1,0 +1,49 @@
+@media all and (max-width: 1000px) {
+
+    #liste {
+        width: 100%;
+    }
+
+    .planet-div {
+        width: 100%;
+    }
+
+    .planet-image {
+        display: none;
+    }
+
+    .planet-mobile {
+        display: block;
+    }
+
+    .planet-content {
+        width: 100%;
+    }
+
+    #liste .width-reduced {
+        width: 100%;
+    }
+
+    .indiv-content {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .planet-content {
+        width: 100%;
+    }
+
+    .indiv {
+
+    }
+
+    .planet-view-mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+}

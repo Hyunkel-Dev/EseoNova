@@ -1,0 +1,8 @@
+@media all and (max-width: 1600px) {
+
+    #planning .row {
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,19 @@
+@media all and (max-width: 1000px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 25vh;
+    }
+
+    footer .row {
+        flex-direction: row;
+    }
+
+    .social-icon {
+        font-size: 4rem;
+    }
+
+}

@@ -1,0 +1,62 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer {
+    justify-content: center;
+    width: 100%;
+    /*background-color: var(--black);*/
+    color: var(--white);
+    height: 30vh;
+
+    text-decoration: none;
+
+    background: transparent;
+}
+footer div a {
+    color: var(--white);
+    padding-left: 20px;
+    padding-right: 20px;
+
+    transition: all 0.25s linear;
+}
+.social-icon {
+    background-image: linear-gradient(-90deg, var(--red), var(--black), var(--red));
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: gradient var(--duration) ease infinite;
+
+    font-size: 2.5rem;
+}
+footer a:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a p {
+    color: var(--white);
+}

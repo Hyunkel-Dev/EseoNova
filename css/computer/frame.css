@@ -1,0 +1,22 @@
+.frame {
+    background-color: var(--black);
+    color: var(--white);
+    width: 45%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    text-align: center;
+    border: 0;
+}
+.frame h3 {
+    padding-bottom: 20px;
+}
+.frame img {
+    max-width: 40%;
+    padding: 20px;
+}
+.frame .row {
+    height: 100%;
+}

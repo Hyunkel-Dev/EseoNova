@@ -1,0 +1,30 @@
+@media all and (max-width: 1000px) {
+
+    #home {
+        flex-direction: column;
+    }
+    #logo {
+        max-height: 60%;
+        max-width: 90%;
+        width: unset;
+    }
+    #title {
+        width: unset;
+        font-size: 8rem;
+    }
+
+    #quote {
+        flex-direction: column-reverse;
+    }
+    blockquote {
+        width: 80%;
+    }
+    .profile {
+        width: 60%;
+        padding-bottom: 50px;
+    }
+
+    #informations {
+        align-items: center;
+    }
+}

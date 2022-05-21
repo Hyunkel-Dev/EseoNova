@@ -1,0 +1,66 @@
+#home {
+    height: 100vh;
+}
+#logo {
+    width: 40%;
+}
+#title {
+    font-family: title-font, sans-serif;
+
+    font-size: 8rem;
+
+    background-image: linear-gradient(-90deg, var(--red), var(--black), var(--red));
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: gradient var(--duration) ease infinite;
+}
+
+#quote {
+    padding-bottom: 50px;
+}
+
+blockquote {
+    z-index: -1;
+    position: relative;
+    width: 40%;
+    /* background: #ddd; */
+}
+blockquote:before {
+    position: absolute;
+    content: open-quote;
+    font-family: Arial, serif;
+    font-size: 8em;
+    margin-left: -0.6em;
+    margin-top: -0.4em;
+}
+blockquote:after {
+    position: absolute;
+    content: close-quote;
+    font-family: Arial, serif;
+    font-size: 8em;
+    bottom: 0;
+    right: 0;
+    margin-right: -0.6em;
+    margin-bottom: -0.8em;
+}
+blockquote p {
+    text-align: justify;
+}
+
+.profile {
+    width: 20%;
+    justify-content: center;
+}
+.profile img {
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 50%;
+}
+
+#informations {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    align-items: stretch;
+}

@@ -1,0 +1,78 @@
+/* FONTS */
+
+@font-face {
+    font-family: title-font;
+    src: url("../assets/font/Ailerons-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: default-font;
+    src: url("../assets/font/Klik-Light.otf") format("opentype");
+}
+
+
+/* COLORS */
+
+:root {
+    --black: #000000;
+    --dark: #152026;
+    --blue: #07223A;
+    --red: #CA1F2B;
+    --pink: #E57EF2;
+    --light: #FEFEE2;
+    --white: #F2DFE0;
+}
+
+
+/* GRADIENTS */
+
+:root {
+    --duration: 15s;
+}
+
+@keyframes gradient {
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

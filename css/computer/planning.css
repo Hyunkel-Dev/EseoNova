@@ -1,0 +1,59 @@
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--black);
+    user-select: none;
+
+    z-index: -1;
+}
+
+#planning {
+    color: var(--white);
+    padding-bottom: 50px;
+}
+
+#planning .divider {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
+
+#planning .vertical-divider {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
+
+#planning .row {
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: stretch;
+}
+
+#planning h3 {
+    padding-bottom: 40px;
+}
+
+.timeline {
+    width: 100%;
+
+    border-left: solid 1px var(--white);
+
+    margin-left: 10%;
+}
+
+/*.events {*/
+/*    width: 150px;*/
+/*    border-left: solid 2px var(--white);*/
+/*}*/
+.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    padding: 10px;
+
+}
+.hour {
+    font-weight: bold;
+    min-width: 25%;
+}
