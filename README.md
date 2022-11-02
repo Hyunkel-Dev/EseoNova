@@ -7,7 +7,7 @@
 
 ## Description
 
-![image](https://user-images.githubusercontent.com/66129931/199497469-eb33399d-8a19-4e7c-95cd-bd80a1f437de.png)
+![image](https://user-images.githubusercontent.com/66129931/199497592-e5c688c3-d154-40f4-8abb-22ffe2423098.png)
 
 ## Screenshot
 
