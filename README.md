@@ -1,6 +1,8 @@
 # EseoNova
 
-![Language](https://img.shields.io/badge/Languages-HTML_CSS_JavaScript-red)
+![Language](https://img.shields.io/badge/Languages-HTML-red)
+![Language](https://img.shields.io/badge/Languages-CSS-blue)
+![Language](https://img.shields.io/badge/Languages-JavaScript-yellow)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 ## Description
