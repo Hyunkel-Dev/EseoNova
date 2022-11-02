@@ -5,10 +5,11 @@
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
+
 ## Description
+
 ![image](https://user-images.githubusercontent.com/66129931/199497805-d154ebf0-035f-413d-90f8-90af08aeb9ec.png)
 
-![image](https://user-images.githubusercontent.com/66129931/199497592-e5c688c3-d154-40f4-8abb-22ffe2423098.png)
 
 ## Screenshot
 
